@@ -1,6 +1,7 @@
 # How To Create Appsthlon Environment From Scratch
 
 You need servers:
+
 - Appsthlon Management Server, which contains:
     - Docker Server
     - Jenkins Server with jobs from `setup-core-cd-pipelines` (dockerized)
