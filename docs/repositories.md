@@ -8,7 +8,7 @@ Appsthlon main repositories:
 - [core-web](repos/core-web.md) - Main Appsthlon Web Application
 - [core-config-files](repos/core-config-files.md) - Core/Customer Applications's Configuration Files
 - [core-customer-scripts](repos/core-customer-scripts.md) - Core Customer Scripts
-- [core-customer-app-services](repos/customer-app-services.md) - Core Customer Web Application
+- [core-customer-app-services](repos/customer-app-services.md) - Core Customer Application Services
 - [core-customer-services](repos/customer-services.md) - Core Customer Services
 - [core-customer-widgets](repos/customer-widgets.md) - Core Customer Widgets
 - [core-customer-widget-services](repos/customer-widget-services.md) - Core Customer Widget Backend Services
