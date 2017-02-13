@@ -6,7 +6,7 @@ Appsthlon main repositories:
 - [core-cd-pipelines](repos/core-cd-pipelines.md) - Core CD Pipelines
 - [core-services](repos/core-services.md) - Main Appsthlon Backend Management Services
 - [core-web](repos/core-web.md) - Main Appsthlon Web Application
-- [core-config-files](repos/core-config-files.md) - Main Appsthlon Web Application's Configuration Files
+- [core-config-files](repos/core-config-files.md) - Core/Customer Applications's Configuration Files
 - [core-customer-scripts](repos/core-customer-scripts.md) - Core Customer Scripts
 - [core-customer-app-services](repos/customer-app-services.md) - Core Customer Web Application
 - [core-customer-services](repos/customer-services.md) - Core Customer Services
