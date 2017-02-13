@@ -1,16 +1,56 @@
 Appsthlon main repositories:
 
-- documentation - Project documentation
-- [utilities](repos/utilities.md) - Utility scripts
-- [setup-core-scripts](repos/setup-core-scripts.md) - Setup Core Environments Scripts
-- [setup-core-cd-pipelines](repos/setup-core-cd-pipelines.md) - Setup Core Environments Pipelines
-- [core-cd-pipelines](repos/core-cd-pipelines.md) - Core CD Pipelines
-- [core-services](repos/core-services.md) - Main Appsthlon Backend Management Services
-- [core-web](repos/core-web.md) - Main Appsthlon Web Application
-- [core-config-files](repos/core-config-files.md) - Core/Customer Applications's Configuration Files
-- [core-customer-scripts](repos/core-customer-scripts.md) - Core Customer Scripts
-- [core-customer-cd-pipelines](repos/core-customer-cd-pipelines.md) - Core Customer's Environments CD Pipelines
-- [core-customer-app-services](repos/core-customer-app-services.md) - Core Customer Application Services
-- [core-customer-services](repos/core-customer-services.md) - Core Customer Services
-- [core-customer-widgets](repos/core-customer-widgets.md) - Core Customer Widgets
-- [core-customer-widget-services](repos/core-customer-widget-services.md) - Core Customer Widget Backend Services
+- documentation - Project documentation, contains:
+    - project documentation
+- [utilities](repos/utilities.md) - Utility scripts, contains:
+    - git management tools
+- [master-jenkins-docker](repos/master-jenkins-docker.md) - Master jenkins docker containter create files, contains:
+    - Dockerfile
+    - master jenkins configuration
+    - master jenkins access keys
+    - master jenkins jobs
+- [master-scripts](repos/master-scripts.md) - Master Scripts, contains:
+    - scripts used to setup master server
+    - scripts used by master-cd-pipelines
+- [master-cd-pipelines](repos/master-cd-pipelines.md) - Master CD Pipelines, contains:
+    - pipelines for redeploying core gitlab server
+    - pipelines for redeploying core jenkins server
+    - pipeline for rebuilding all core components
+    - pipeline for rebuilding all core-customer components
+    - pipeline for rebuilding all core environment
+- [core-gitlab-docker](repos/core-gitlab-docker.md) - Core gitlab docker container create file, contains:
+    - Dockerfile
+    - core gitlab configuration
+    - core gitlab access keys
+    - core gitlab jobs
+- [core-jenkins-docker](repos/core-jenkins-docker.md) - Core jenkins docker container create files, contains:
+    - Dockerfile
+    - core jenkins configuration
+    - core jenkins access keys
+    - core jenkins jobs
+- [core-cd-pipelines](repos/core-cd-pipelines.md) - Core Environment CD Pipelines, contains:
+    - pipelines for rebuilding all single core components
+    - pipelines for rebuilding all single core-customer components
+    - pipelines for recreating docker registry
+- [core-services](repos/core-services.md) - Core Backend Management Services, contains:
+    - functional core backend services (service-applications, service-environments, ...)
+    - non-functional core backend services (service-config, service-discovery, ...)
+- [core-web](repos/core-web.md) - Core Web Application, contains:
+    - core web application
+- [core-config-files](repos/core-config-files.md) - Core/Customer Applications's Configuration Files, contains:
+    - configuration files for all core components
+- [core-customer-scripts](repos/core-customer-scripts.md) - Core Customer Scripts, contains:
+    - scripts used by core-customer-cd-pipelines
+- [core-customer-cd-pipelines](repos/core-customer-cd-pipelines.md) - Core Customer's Environments CD Pipelines, contains:
+    - pipelines for managing customer's environments
+    - pipelines for rebuilding all kind of services on customer's own instances
+- [core-customer-app-services](repos/core-customer-app-services.md) - Core Customer Main Application, contains:
+    - core-customer main application
+- [core-customer-services](repos/core-customer-services.md) - Core Customer Services, contains:
+    - functional core-customer backend services (service-customer-mysql, service-customer-solr, ...)
+    - non-functional core-customer backend services (service-customer-config, service-customer-discovery, ...)
+- [core-customer-widgets](repos/core-customer-widgets.md) - Core Customer Widgets, contains:
+    - all core-customer widget's components
+- [core-customer-widget-services](repos/core-customer-widget-services.md) - Core Customer Widget Backend Services, contains:
+    - all core-customer widget's backend services
+
