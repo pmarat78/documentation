@@ -1,6 +1,6 @@
 # How To Create Appsthlon Environment From Scratch
 
-You need servers:
+You need 2 servers:
 
 - Appsthlon Management Server, which contains:
     - Docker Server
