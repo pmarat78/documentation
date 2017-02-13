@@ -3,6 +3,7 @@ Appsthlon main repositories:
 - documentation - Project documentation
 - [utilities](repos/utilities.md) - Utility scripts
 - [setup-core-scripts](repos/setup-core-scripts.md) - Setup Core Environments Scripts
+- [setup-core-cd-pipelines](repos/setup-core-cd-pipelines.md) - Setup Core Environments Pipelines
 - [core-cd-pipelines](repos/core-cd-pipelines.md) - Core CD Pipelines
 - [core-services](repos/core-services.md) - Main Appsthlon Backend Management Services
 - [core-web](repos/core-web.md) - Main Appsthlon Web Application
