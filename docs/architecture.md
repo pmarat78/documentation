@@ -14,3 +14,4 @@
 - all backend API (both platform bulit-in and customer provided) must be accessible via Core Web
 - i18n is a must
 - application structure is stored in internal, file based, database but not deployed in war (in oppposite to widgets' conkfiguration)
+- customer provided backend services should be able to be run in debug mode
