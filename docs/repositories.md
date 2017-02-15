@@ -4,7 +4,7 @@
     - project documentation
 - [utilities](repos/utilities.md) - Utility scripts, contains:
     - git management tools
-- [master-jenkins-docker](repos/master-jenkins-docker.md) - Master jenkins docker containter create files, contains:
+- [master-jenkins-docker](repos/master-jenkins-docker.md) - Master jenkins docker containter, contains:
     - Dockerfile
     - master jenkins configuration
     - master jenkins access keys
@@ -18,12 +18,12 @@
     - pipeline for rebuilding all core components
     - pipeline for rebuilding all core-customer components
     - pipeline for rebuilding all core environment
-- [core-gitlab-docker](repos/core-gitlab-docker.md) - Core gitlab docker container create file, contains:
+- [core-gitlab-docker](repos/core-gitlab-docker.md) - Core gitlab docker container, contains:
     - Dockerfile
     - core gitlab configuration
     - core gitlab access keys
     - core gitlab jobs
-- [core-jenkins-docker](repos/core-jenkins-docker.md) - Core jenkins docker container create files, contains:
+- [core-jenkins-docker](repos/core-jenkins-docker.md) - Core jenkins docker container, contains:
     - Dockerfile
     - core jenkins configuration
     - core jenkins access keys
