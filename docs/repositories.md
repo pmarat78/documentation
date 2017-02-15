@@ -32,18 +32,20 @@
     - pipelines for rebuilding all single core components
     - pipelines for rebuilding all single core-customer components
     - pipelines for recreating docker registry
+- [core-config-files](repos/core-config-files.md) - Core/Customer Applications's Configuration Files, contains:
+    - configuration files for all core components
 - [core-services](repos/core-services.md) - Core Backend Management Services, contains:
     - functional core backend services (service-applications, service-environments, ...)
     - non-functional core backend services (service-config, service-discovery, ...)
 - [core-web](repos/core-web.md) - Core Web Application, contains:
     - core web application
-- [core-config-files](repos/core-config-files.md) - Core/Customer Applications's Configuration Files, contains:
-    - configuration files for all core components
 - [core-customer-scripts](repos/core-customer-scripts.md) - Core Customer Scripts, contains:
     - scripts used by core-customer-cd-pipelines
 - [core-customer-cd-pipelines](repos/core-customer-cd-pipelines.md) - Core Customer's Environments CD Pipelines, contains:
     - pipelines for managing customer's environments
     - pipelines for rebuilding all kind of services on customer's own instances
+- [core-customer-config-files](repos/core-customer-config-files.md) - Core Customer Applications's Configuration Files, contains:
+    - configuration files for all core customer components
 - [core-customer-app-services](repos/core-customer-app-services.md) - Core Customer Main Application, contains:
     - core-customer main application
 - [core-customer-services](repos/core-customer-services.md) - Core Customer Services, contains:
