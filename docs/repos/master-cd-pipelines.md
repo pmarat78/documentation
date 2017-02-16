@@ -1,5 +1,7 @@
 # Master CD Pipelines
 
+Repo link: [master-cd-pipelines](https://bitbucket.org/softhlon/master-cd-pipelines)
+
 Contains:
 
 - pipelines for redeploying core gitlab server

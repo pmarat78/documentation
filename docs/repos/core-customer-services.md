@@ -1,5 +1,7 @@
 # Core Customer Services
 
+Repo link: [core-customer-services](https://bitbucket.org/softhlon/core-customer-services)
+
 Contains:
 
 - functional core-customer backend services

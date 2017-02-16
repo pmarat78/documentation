@@ -1,5 +1,7 @@
 # Core Backend Management Services
 
+Repo link: [core-services](https://bitbucket.org/softhlon/core-services)
+
 Contains:
 
 - functional core backend services
