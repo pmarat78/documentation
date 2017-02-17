@@ -6,6 +6,7 @@
     - git management tools
 - [master-scripts](repos/master-scripts.md) - Master Scripts, contains:
     - scripts used to setup master server
+    - scripts used to setup core server
     - scripts used by master-cd-pipelines
 - [master-jenkins-docker](repos/master-jenkins-docker.md) - Master jenkins docker containter, contains:
     - Dockerfile
