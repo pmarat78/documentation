@@ -4,14 +4,14 @@
     - project documentation
 - [utilities](repos/utilities.md) - Utility scripts, contains:
     - git management tools
+- [master-scripts](repos/master-scripts.md) - Master Scripts, contains:
+    - scripts used to setup master server
+    - scripts used by master-cd-pipelines
 - [master-jenkins-docker](repos/master-jenkins-docker.md) - Master jenkins docker containter, contains:
     - Dockerfile
     - master jenkins configuration
     - master jenkins access keys
     - master jenkins jobs
-- [master-scripts](repos/master-scripts.md) - Master Scripts, contains:
-    - scripts used to setup master server
-    - scripts used by master-cd-pipelines
 - [master-cd-pipelines](repos/master-cd-pipelines.md) - Master CD Pipelines, contains:
     - pipelines for redeploying core gitlab server
     - pipelines for redeploying core jenkins server
